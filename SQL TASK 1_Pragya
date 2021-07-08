@@ -1,0 +1,81 @@
+1. what is Data? 
+Ans: Data are a set of values about one or more persons or objects. 
+     It may be qualitative and quantitaive variables.
+	 Data refers to the fact that some existing information or
+	 knowledge is represented or coded in some form suitable for better usage or processing.
+	 
+2. What are the resources from where we can collect data ?
+Ans: Data can be classified in two types as primary data and secondart data.
+     Primary data is a first hand information and it can be collected through resources like 
+     Personal Investigation
+     collection via Investigators
+     Questionnaires
+     Telephonic investigation
+	 Secondary data is a second hand data.It is collected from some source that has been originally primarily collected 
+	 they are collected as official collections such as Ministry of Finasnce, Federal Bureaus,etc. 
+	 Data published by Chambers of Commerce and trade assosiations and boards,
+	 Articles in the newspapers,journals and technical publications.
+
+3. What is DBMS?
+Ans: Data Base Management System(DBMS) is a software for storing and retrieving users' data while considering appropriate security measures.
+     It consists of a group of programes which manipulate the database.It allows user to create their own databases as per their requirement.
+	 
+4. What is RDBMS?
+Ans: RDBMS is a type of Database management system that stores data in a row-column based table structure which connects related data elements.
+     An RDBMS includes functions that maintain security, accuracy, integrity and consistency of the data.
+	 
+5. What is SQL?
+Ans: SQL stands for Structured query Language. It lets you access and manipulate databases.SQL can execute and retrieve data from databases.
+     It can alsdo insert, delete , update and create records in a database. It is a standard language for RDBMS systems.
+	 
+6. What are the various datatypes used in SQL?
+Ans: a) Numeric Datatype: It includes all the numeric data like int(-2147483648 to 2147483647), smallint(-32768 to 32767), 
+        bigint(-9223372036854775808 to 9223372036854775807), etc.
+	 b) Date and Time Datatype : It includes datatypes such as date, time, datetime, smalldatetime.
+	 c) String Datatype: It includes datatypes with text and character values like char, varchar, etc.
+	 
+7. What are the various commmands used in MySQL?
+Ans: There are four types of SQL commands
+     A) DDL(Data Definition Language): It changes the structure of the table.
+        Some commands used in DDl are-
+   		i)CREATE: It is used to create new table in the database.
+		ii)ALTER :It is used to alter the structure of the table.
+		iii) DROP: It is used to delete both the structure and the record in the table.
+		iv) TRUNCATE: It is used to delete all the rows from the table and free the space containing the table.
+		v) RENAME: It is used to rename the table and columns in the database.
+	 B) DML(Data Manipulation Language)	: It is used to modify the table in database.
+	     Some commands used in DML are-
+		 i) INSERT: It is used to insert data into the row of a table.
+		 ii)DELETE: It is used to remove one or more row from the table in database.
+		 iii)UPDATE: IT is used to update or modify the values of a column in atable.
+	 C) TCL(Transaction Control Language): It can only be used with DML commands.
+         Some commands used in TCL are-
+		 i) COMMIT: It is used to save all the transactions to the database.
+		 ii) ROLLBACK: It is used to undo transactions that have not already been saved to the database.
+	 D)  DQL(Data Query Language): It is used to fetch data fron database.
+          It uses only one command.
+		  i) SELECT: It is usedf to select the attribute based on the condition described by WHERE clause.
+		  
+8.  Differentiate between SQL and MySQL?
+Ans: `i) SQL is a query language and MySQL is a relational database that uses SQL to query a database.
+      ii) SQL is used to access, update and manipulate the data stored in database and
+     	  MySQL is a database that stores the existing data in a database in an organised manner.
+	  iii) SQL is used for writing queries for database and MySQL is used for data storing, modifying and management in a tabular format.
+	  iv) SQL supports a single storage engine and MySQL supports multiple storage engines and also plug-in storage engines.
+	  v) SQL server is much more secure than MySQL.
+	  
+9. How can you create database and tables in MySQL?
+Ans: Lets take an example of a table with "student" and 'Id','FirstName','LastName','Department', 'DOB', 'MobileNo'.
+     CREATE TABLE student (
+	 Id int
+	 FirstName varchar(50)
+	 LastName varchar(50)
+	 Department varchar(255)
+	 DOB date
+	 MobileNo int
+	 );
+
+10. Why database testing is important?
+Ans: Database testing is important as it ensures data values and information received and stored into database is valid or not.
+     It helps save data loss and no unauthorised access of information.
+	  
